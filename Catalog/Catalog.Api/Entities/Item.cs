@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Catalog.Api
 {
-    public class Item
+    public record Item
     {
         public Guid Id { get; init; }
         public string Name { get; init; }
